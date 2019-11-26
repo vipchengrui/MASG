@@ -1,5 +1,5 @@
 # MASG
-microphone array speech generator in room acoustic.
+microphone array speech generator (MASG) in room acoustic.
 
 ## Functions Implemented
 It is used to simulate the speech data received by microphone array of various shapes in room acoustic environment, including clean speech (clean), reverberation speech (clean rever), noisy speech (clean noise), noisy and reverberation speech (clean rever niose) and corresponding noise signal (noise).
