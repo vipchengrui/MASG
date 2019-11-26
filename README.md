@@ -1,6 +1,18 @@
 # MASG
 microphone array speech generator in room acoustic.
 
+## Functions Implemented
+It is used to simulate the speech data received by microphone array of various shapes in room acoustic environment, including clean speech (clean), reverberation speech (clean rever), noisy speech (clean noise), noisy and reverberation speech (clean rever niose) and corresponding noise signal (noise).
+
+## Packages Required
+
+numpy
+matplotlib
+scipy
+glob
+pyroomacoustics [1]
+add_noise_for_multichannel [2]
+
 ## Version Information 
 
 ### Release 0.1
