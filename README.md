@@ -7,10 +7,15 @@ It is used to simulate the speech data received by microphone array of various s
 ## Packages Required
 
 numpy
+
 matplotlib
+
 scipy
+
 glob
+
 pyroomacoustics [1]
+
 add_noise_for_multichannel [2]
 
 ## Version Information 
