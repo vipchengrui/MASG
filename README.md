@@ -1,4 +1,5 @@
-# MASG: Microphone Array Speech Generator in room acoustic
+# MASG
+microphone array speech generator in room acoustic.
 
 ## Version Information 
 
