@@ -64,11 +64,11 @@ channels = ['ch0', 'ch1', 'ch2', 'ch3', 'ch4', 'ch5', 'ch6', 'ch7', 'ch8', 'ch9'
 SNRs = ['-5dB', '0dB', '5dB', '10dB']
 RTs = ['200ms', '300ms', '400ms', '500ms', '600ms', '700ms', '800ms']
 
-# speech connection for test dataset
+'''# speech connection for test dataset
 print('[test dataset]')
 speech_connection(test_root_path, mic, channels, SNRs, RTs)
 print('test dataset has been connection.')
-print('\n')
+print('\n')'''
 
 # speech connection for train dataset
 print('[train dataset]')
