@@ -30,7 +30,7 @@ Based on such a meeting room environment, we abstract the room, microphone array
 
 ![image_room](https://github.com/vipchengrui/MASG/blob/master/img/room_model.png)
 
-Fig.3 the simulation environment
+Fig. 3 the simulation environment
 
 ## Program List
 
