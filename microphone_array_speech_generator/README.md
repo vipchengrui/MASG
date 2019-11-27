@@ -28,7 +28,7 @@ The scene simulates a meeting room with a length of 4m, a width of 3m and a heig
 
 Based on such a meeting room environment, we abstract the room, microphone array, target source and other information used to make the data set, and get the simulation environment as shown in Fig. 3.
 
-![image_room](https://github.com/vipchengrui/MASG/blob/master/img/room_model.png)
+![image_room_model](https://github.com/vipchengrui/MASG/blob/master/img/room_model.png)
 
 Fig. 3 the simulation environment
 
