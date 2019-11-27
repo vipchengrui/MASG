@@ -14,7 +14,7 @@ Fig. 1 The schematic diagram of MASG.
 
 Based on Pyroomacoustic, the microphone array clean speech is obtained by setting the absorption to 1.0, and the microphone array reverberation speech is obtained by setting the absorption to less than 1.0. With the microphone array clean speech, combined with the noise signal and the expected signal-to-noise ratio (SNR), we can get the corresponding microphone array noise signal, and combine them with the microphone array clean speech and the microphone array reverberation speech to get the microphone array noisy speech and the microphone array noisy reverberation speech.
 
-From this, we can get the simulation data of all microphone arrays used in indoor acoustic environment
+From this, we can get the simulation data of all microphone arrays used in indoor acoustic environment.
 
 ## Simulation Environment
 
