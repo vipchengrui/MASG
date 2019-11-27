@@ -6,13 +6,13 @@ It is used to simulate the speech data received by microphone array of various s
 
 ## Method
 
-The MASG is implemented based on two tools, namely, Pyroomacoustic [1] and an improved version add_noise_for_multichannel with add noise [2]. The schematic diagram of MASG is shown in Fig. 1.
+The MASG is implemented based on two tools, namely, *Pyroomacoustic* [1] and an improved version *add_noise_for_multichannel* with add noise [2]. The schematic diagram of MASG is shown in Fig. 1.
 
 ![image_method](https://github.com/vipchengrui/MASG/blob/master/img/method.png)
 
 Fig. 1 The schematic diagram of MASG.
 
-Based on Pyroomacoustic, the microphone array clean speech is obtained by setting the absorption to 1.0, and the microphone array reverberation speech is obtained by setting the absorption to less than 1.0. With the microphone array clean speech, combined with the noise signal and the expected signal-to-noise ratio (SNR), we can get the corresponding microphone array noise signal, and combine them with the microphone array clean speech and the microphone array reverberation speech to get the microphone array noisy speech and the microphone array noisy reverberation speech.
+Based on *Pyroomacoustic*, the microphone array clean speech is obtained by setting the absorption to 1.0, and the microphone array reverberation speech is obtained by setting the absorption to less than 1.0. With the microphone array clean speech, combined with the noise signal and the expected signal-to-noise ratio (SNR), we can get the corresponding microphone array noise signal, and combine them with the microphone array clean speech and the microphone array reverberation speech to get the microphone array noisy speech and the microphone array noisy reverberation speech.
 
 From this, we can get the simulation data of all microphone arrays used in indoor acoustic environment.
 
@@ -24,7 +24,7 @@ In order to verify the effect of the MASG, we set up a common room acoustic envi
 
 Fig. 2 Meeting room acoustic environment.
 
-The scene simulates a meeting room with a length of 4m, a width of 3m and a height of 3m. In this room, a 2.2m1.1m0.75m conference table, 19 chairs with possible target sound source, and an audible screen are respectively placed. Their coordinates and details are shown in Fig. 2.
+The scene simulates a meeting room with a length of 4m, a width of 3m and a height of 3m. In this room, a 2.2mx1.1mx0.75m conference table, 19 chairs with possible target sound source, and an audible screen are respectively placed. Their coordinates and details are shown in Fig. 2.
 
 Based on such a meeting room environment, we abstract the room, microphone array, target source and other information used to make the data set, and get the simulation environment as shown in Fig. 3.
 
