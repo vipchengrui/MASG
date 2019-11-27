@@ -1,3 +1,5 @@
+![image_logo](https://github.com/vipchengrui/MASG/blob/master/img/logo.png)
+
 # MASG
 microphone array speech generator (MASG) in room acoustic.
 
