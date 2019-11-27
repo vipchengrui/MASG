@@ -26,7 +26,7 @@ Fig. 2 Meeting room acoustic environment.
 
 The scene simulates a meeting room with a length of 4m, a width of 3m and a height of 3m. In this room, a 2.2m1.1m0.75m conference table, 19 chairs with possible target sound source, and an audible screen are respectively placed. Their coordinates and details are shown in Fig. 2.
 
-	Based on such a meeting room environment, we abstract the room, microphone array, target source and other information used to make the data set, and get the simulation environment as shown in Fig. 3.
+Based on such a meeting room environment, we abstract the room, microphone array, target source and other information used to make the data set, and get the simulation environment as shown in Fig. 3.
 
 ![image_room](https://github.com/vipchengrui/MASG/blob/master/img/room_model.png)
 
@@ -39,13 +39,20 @@ The MASG is implemented with Python. The detailed packages and functions are as 
 3.1 Packages
 
 [numpy]
-https://numpy.org/ 						https://pypi.org/project/numpy/
+https://numpy.org/
+https://pypi.org/project/numpy/
+
 [matplotlib]
-https://matplotlib.org/					https://pypi.org/project/matplotlib/
+https://matplotlib.org/	
+https://pypi.org/project/matplotlib/
+
 [scipy]
-https://www.scipy.org/ 					https://pypi.org/project/scipy/
+https://www.scipy.org/ 
+https://pypi.org/project/scipy/
+
 [pyroomacoustic]
-https://github.com/LCAV/pyroomacoustics	https://pypi.org/project/pyroomacoustics/
+https://github.com/LCAV/pyroomacoustics
+https://pypi.org/project/pyroomacoustics/
 
 3.2 Functions
 
