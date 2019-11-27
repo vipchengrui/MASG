@@ -36,7 +36,7 @@ Fig.3 the simulation environment
 
 The MASG is implemented with Python. The detailed packages and functions are as follows.
 
-3.1 Packages
+### Packages
 
 [numpy]
 https://numpy.org/
@@ -54,7 +54,7 @@ https://pypi.org/project/scipy/
 https://github.com/LCAV/pyroomacoustics
 https://pypi.org/project/pyroomacoustics/
 
-3.2 Functions
+### Functions
 
 [add_noise_for_multichannel.py]
 This function is used to add noise to microphone array clean speech and microphone array reverberation speech based on the expected SNR.
