@@ -73,5 +73,3 @@ This function is used to implement speech connection.
 [1] R. Scheibler, E. Bezzam and I. Dokmanić, "Pyroomacoustics: A Python Package for Audio Room Simulation and Array Processing Algorithms," 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Calgary, AB, 2018, pp. 351-355.
 
 [2] ITU-T (1993). Objective measurement of active speech level. ITU-T Recommendation P. 56.
-
-Author: Rui Cheng
