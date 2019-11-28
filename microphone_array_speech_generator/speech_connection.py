@@ -28,10 +28,9 @@ def speech_connection(root_path, mic, channels, SNRs, RTs):
     Author: Rui Cheng
     '''
 
-    fileNamesTrain = np.array([])
-
     for s in mic:
         for ch in channels:
+	    fileNamesTrain = np.array([])
             for snr in SNRs:
                 for rt in RTs:
                     for file in glob.glob(root_path+s+'\\'+ch+'\\'+snr+'\\'+rt+'\\'+'*.wav'):
