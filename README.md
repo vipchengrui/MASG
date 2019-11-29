@@ -2,7 +2,7 @@
 
 # MASG
 
-[![GitHub release](https://img.shields.io/github/release/vipchengrui/MASG/all.svg?style=flat-square)](https://github.com/vipchengrui/MASG/releases)
+[![GitHub release](https://img.shields.io/github/release/vipchengrui/MASG/all.svg?style=flat-square)](https://github.com/vipchengrui/MASG/release)
 [![license](https://img.shields.io/github/license/vipchengrui/MASG.svg?style=flat-square)](https://github.com/vipchengrui/MASG/blob/master/LICENSE)
 
 
