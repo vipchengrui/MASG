@@ -1,6 +1,11 @@
 ![image_logo](https://github.com/vipchengrui/MASG/blob/master/img/logo.png)
 
 # MASG
+
+[![GitHub release](https://img.shields.io/github/release/JacobD10/SoundZone_Tools/all.svg?style=flat-square)](https://github.com/vipchengrui/MASG/releases)
+[![license](https://img.shields.io/github/license/JacobD10/SoundZone_Tools.svg?style=flat-square)](https://github.com/vipchengrui/MASG/blob/master/LICENSE)
+
+
 microphone array speech generator (MASG) in room acoustic.
 
 ## Abstract
