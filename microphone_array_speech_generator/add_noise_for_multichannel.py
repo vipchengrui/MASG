@@ -225,6 +225,7 @@ def addnoise(clean_data, clean_rever_data, noise_data, snr, fs):
         # the start of the noise segment can vary between [0, rand_start_limit]
         rand_start = int(round(rand_start_limit * np.matlib.rand(1)[0,0] + 1))
         # random start of the noise segment
+        rand_start = 10
         noise_segment = noise[rand_start:rand_start+x_len]
 
         # the randomly selected noise segment will be added to the clean and reverberation speech
