@@ -41,7 +41,8 @@ def speech_connection(root_path, mic, channels, SNRs, RTs):
             trimmed_output_train = np.array([])
             for fileName in fileNamesTrain:
                 Fs, newFile = wavfile.read(fileName)
-                trimmed_output_train = np.append(trimmed_output_train, newFile/np.max(np.abs(newFile)))
+		outputFile = newFile / np.max(np.abs(newFile))
+                trimmed_output_train = np.append(trimmed_output_train, outputFile)
 
             # define output as int16 in order to avoid clipping using wavfile.write
             int_array = trimmed_output_train.astype("int16")
